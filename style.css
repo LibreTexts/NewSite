@@ -502,7 +502,7 @@ img {
 
 .header-area .academy-main-menu .calling-info {
 	position: relative;
-	padding-left: 80px;
+	/* padding-left: 46px; */
 	/* overflow: hidden; */
 	width: max-content;
 }
@@ -557,9 +557,9 @@ img {
 	}
 }
 
-@media only screen and (max-width: 767px) {
-	.header-area .academy-main-menu .calling-info .call-center #headerLogo {
-		display: none;
+@media only screen and (max-width: 375px) {
+	.header-area .academy-main-menu .calling-info .call-center span img {
+		 display: none;
 	}
 }
 
@@ -569,7 +569,6 @@ img {
 	/* height: 120%; */
 	/* top: 3px; */
 	left: -30px;
-	z-index: 1;
 	/* background-color: #1c82ca; */
 	content: '';
 	/* -webkit-transform: rotate(30deg); */

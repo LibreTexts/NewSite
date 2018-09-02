@@ -95,20 +95,22 @@
 		});
 		$('#feedbackForm input, #feedbackForm textarea').change(function () {
 			const checkBox = $(this).siblings('span.input-group-addon').children('.glyphicon');
+			const $email = $('#email');
 			if ($(this).val()) {
-				const $email = $('#email');
 				if (this.id === "email") {
 					if (!contactFormUtils.isValidEmail($email.val())) {
 						contactFormUtils.addError($email);
 						checkBox.removeClass('glyphicon-unchecked').removeClass('glyphicon-checked').addClass('glyphicon-error').css({color: 'red'});
 						return;
 					}
+					contactFormUtils.removeError($email);
 				}
 				checkBox.removeClass('glyphicon-unchecked').removeClass('glyphicon-error').addClass('glyphicon-check').css({color: 'green'});
-				contactFormUtils.removeError($email);
 			}
 			else {
-				checkBox.removeClass('glyphicon-unchecked').removeClass('glyphicon-error').addClass('glyphicon-unchecked').css({color: ''});
+				checkBox.removeClass('glyphicon-check').removeClass('glyphicon-error').addClass('glyphicon-unchecked').css({color: '#555'});
+				if (this.id === "email")
+					contactFormUtils.removeError($email);
 			}
 		});
 	});
