@@ -134,6 +134,12 @@ img {
 	width: max-content;
 }
 
+@media (max-width: 990px){
+	classynav ul li.cn-dropdown-item, .classynav ul li.cn-dropdown-item ul li {
+		width: 100%;
+	}
+}
+
 .classynav ul li ul li {
 	display: block
 }
@@ -780,7 +786,8 @@ img {
 }
 
 .breakpoint-on .cn-dropdown-item.has-down.pr12, .breakpoint-on .megamenu-item.pr12 {
-	padding-right: 0 !important
+	padding-right: 0 !important;
+	width: 100%;
 }
 
 .breakpoint-on .classynav > ul > li > a {

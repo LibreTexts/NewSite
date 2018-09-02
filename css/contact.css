@@ -239,17 +239,20 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
 	transform: translateX(-50%);
 	left: 50%;
 	z-index: 30;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 @media only screen and (max-width: 767px) {
 	.bradcumbContent {
 		width: 280px;
+		height: 68px;
 	}
 }
 
 .bradcumbContent h2 {
 	text-align: center;
-	line-height: 110px;
 	font-size: 36px;
 	color: #ffffff;
 }
