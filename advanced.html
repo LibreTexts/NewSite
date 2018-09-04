@@ -187,10 +187,11 @@
 					<p>Sometimes text and still images just aren't enough to model our 3D world. With dynamic figures,
 					   students can manipulate 3D objects in order to get a new perspective and understanding. Our
 					   embedded molecular viewers allow for the interactive visualization of proteins and molecules,
-					   while 3DCalcPlot gives shape to a whole new dimension of mathematics.</p>
+					   while <a href="https://www.monroecc.edu/faculty/paulseeburger/calcnsf/CalcPlot3D/">CalcPlot3D</a>
+					   gives shape to a whole new dimension of mathematics.</p>
 					<div style="display: flex; flex-wrap: wrap; justify-content: center">
 						<script type="text/javascript" src="https://awesomefiles.libretexts.org/GLmol/js/GLWrapper.js"
-						        data-label="true" data-id="$caffeine" data-spin="true" data-border="true"></script>
+						        data-label="true" data-id="=2POR" data-spin="true" data-border="true"></script>
 						<!--data-multiple="true"-->
 						<iframe frameborder="0" style="border:1px solid orange; max-width: 80%"
 						        src="https://www.monroecc.edu/faculty/paulseeburger/CalcPlot3D/dynamicFigure/?type=parametric;parametric=2;x=(4-v*sin(u))*cos(2u);y=(4-v*sin(u))*sin(2u);z=v*cos(u);visible=true;umin=0;umax=pi;usteps=40;vmin=-1;vmax=1;vsteps=3;alpha=-1;format=normal;constcol=rgb(255,0,0)&amp;type=window;hsrmode=3;nomidpts=true;anaglyph=-1;center=16.472782070926637,9.510565162951533,6.180339887498949,1;focus=0,0,0,1;up=0,0,2,1;transparent=false;alpha=140;twoviews=false;unlinkviews=false;axisextension=0.7;xaxislabel=x;yaxislabel=y;zaxislabel=z;edgeson=true;faceson=true;showbox=false;showaxes=false;showticks=true;perspective=true;centerxpercent=0.5;centerypercent=0.5;rotationsteps=30;autospin=true;xygrid=false;yzgrid=false;xzgrid=false;gridsonbox=true;gridplanes=false;gridcolor=rgb(128,128,128);xmin=-4;xmax=4;ymin=-4;ymax=4;zmin=-4;zmax=4;xscale=1;yscale=1;zscale=1;zcmin=-8;zcmax=8;zoom=0.5;xscalefactor=1;yscalefactor=1;zscalefactor=1"
@@ -199,11 +200,18 @@
 				</div>
 				<div class="feature">
 					<h3>Jupyter</h3>
-					<p>With Jupyter, code can be embedded right into the page for students to try. Supporting many
+					<p>With <a href="https://jupyter.org/">Jupyter</a>, code can be embedded right into the page for
+					   students to try. Supporting many
 					   popular languages such as Python, R, and Octave, Jupyter in LibreTexts can turn a few lines of
 					   code into a dynamic illustration of concepts in action. LibreTexts is also exploring the
 					   possibility of hosting dedicated computational resources to cover the needs of more
 					   data-intensive courses.</p>
+					<script type="application/json" id="jupyterConfig">
+						{
+							"repo": "LibreTexts/jupyter-python",
+							"preload": true
+						}
+					</script>
 					<pre data-jupyter="true">
 %%python3
 
@@ -220,9 +228,12 @@ for line in fhand:
 				</div>
 				<div class="feature">
 					<h3>Hypothesis</h3>
-					<p>Hypothesis is a annotation overlay that allows for both public and class-based collaboration.
-					   Some courses use this as a contextual discussion forum to ask clarifying questions or to
-					   highlight the most important content.</p>
+					<p><a href="https://web.hypothes.is/">Hypothesis</a> is a annotation overlay that allows for both
+					                                                     public and class-based collaboration.
+					                                                     Some courses use this as a contextual
+					                                                     discussion forum to ask clarifying questions or
+					                                                     to
+					                                                     highlight the most important content.</p>
 				</div>
 				<div class="feature">
 					<h3>Instant PDF Printouts</h3>
@@ -233,7 +244,7 @@ for line in fhand:
 					<img src="img/PDF2.PNG"/>
 				</div>
 				<div class="feature">
-					<h3>Complete Printed Version - Coming Soon</h3>
+					<h3>Complete Printed Version <span style="color:grey">- Coming Soon</span></h3>
 					<p>Want an entire LibreText as a physical copy? LibreTexts is planning on expanding its print
 					   system such that you can request a full LibreText to print yourself or with a non-profit
 					   partner. While this version of a LibreText is not the most recent or feature rich, it
@@ -241,30 +252,61 @@ for line in fhand:
 					   textbook.</p>
 				</div>
 				<div class="feature">
-					<h3>LMS Integration - Coming Soon</h3>
-					<p>LibreTexts is planning on using Tsugi to allow interoperability with common LMS software such
-					   as Canvas, Blackboard, D2L, and Blackboard. LibreTexts will be able to perform tasks such as
-					   formatting the course modules to include a LibreText and reporting grades from assessment
+					<h3>One Minute Import into LMS <span style="color:green">- In Beta</span></h3>
+					<p>Using the LTI Common Cartridge system, it is possible to import a LibreText into your new course
+					   as a set of links. The common cartridge system is compatible with common LMS software such
+					   as Canvas, Blackboard, D2L, Moodle, and Blackboard. This is speedy for setting up assigned or
+					   recommended readings without having to manually copy over the links. For a more dynamic
+					   integration into the LMS, see our plan for <a href="#b4lms">Deep LMS Integration</a> below</p>
+					<video controls style="max-height: 400px; max-width: 100%; align-self: center">
+						<source src="img/ThinCC.mp4" type="video/mp4"/>
+					</video>
+				</div>
+				<div class="feature" id="b4lms">
+					<h3>OEI Compliance <span style="color:orange">- In Development</span></h3>
+					<p>The <a href="http://ccconlineed.org/">Online Education Initiative (OEI)</a> is a collaborative
+					   effort among California Community Colleges (CCCs) to ensure that significantly more students are
+					   able to complete their educational goals by increasing both access to and success in high-quality
+					   online courses. After our review process is complete, Instructors will be able to select
+					   LibreTexts that conform to OEI accessibility standards and rubric directly from Canvas Commons.
+					   OEI is quickly expanding to include many of the California Community Colleges, and it takes place
+					   in Canvas, which means that likely hundreds of thousands of students will be taking Canvas
+					   courses through OEI in the next few years.</p>
+			<!--		<iframe style='width:89vmin; height:50vmin; align-self: center'
+					        src="https://www.youtube-nocookie.com/embed/GYkymu5BdRI" frameborder="0"
+					        allow="autoplay; encrypted-media" allowfullscreen></iframe>-->
+				</div>
+				<div class="feature">
+					<h3>Deep LMS Integration <span style="color:gray">- Coming Soon</span></h3>
+					<p>LibreTexts is planning on using <a href="https://www.tsugi.org/">Tsugi</a> to allow
+					   increased interoperability with common LMS software such
+					   as Canvas, Blackboard, D2L, Moodle, and Blackboard. LibreTexts will be able to perform
+					   syncronizing tasks such as
+					   updating the course modules to include a LibreText and reporting grades from assessment
 					   modules. Our vision is for LibreTexts to utilize this integration with your LMS to evolve from
 					   just a content platform into a hub for student learning and assessment.</p>
 				</div>
 				<div class="feature">
-					<h3>WeBWork - Coming Soon</h3>
-					<p>WeBWork is a popular homework problems platform for assessing student performance. WeBWork
-					   and other assessment platforms can be directly embedded within the course content to keep
-					   students accountable for understanding the content. The integration of LibreTexts with
-					   Learning Management Systems will then allow for the results to be integrated automatically
-					   back into your LMS, providing an all-in-one solution.</p>
+					<h3>WeBWork <span style="color:grey">- Coming Soon</span></h3>
+					<p><a href="http://webwork.maa.org/">WeBWork</a> is a popular homework problems platform for
+					                                                 assessing student performance. WeBWork
+					                                                 and other assessment platforms can be directly
+					                                                 embedded within the course content to keep
+					                                                 students accountable for understanding the content.
+					                                                 The integration of LibreTexts with
+					                                                 Learning Management Systems will then allow for the
+					                                                 results to be integrated automatically
+					                                                 back into your LMS, providing an all-in-one
+					                                                 solution.</p>
 				</div>
 				<div class="feature">
-					<h3>Imported Open Textbooks - Coming Soon</h3>
+					<h3>Imported Open Textbooks <span style="color:grey">- Coming Soon</span></h3>
 					<p>Adapting an existing LibreText allows for the freedom to shape the course content without having
-					   to start from scratch. With Imported eTextbooks, LibreTexts can integrate Open Textbook content
-					   from other sites such as from Pressbooks. To respect and comply with licensing and copyright
-					   protections, imported content must have a <a
-								href="https://creativecommons.org/licenses/by-nc-sa/3.0/us/">CC BY-NC-SA</a>,
-					   equivalent, or less restrictive license prior
-					   to import.</p>
+					   to start from scratch. With Imported eTextbooks, LibreTexts can integrate external Open Textbook
+					   content from other sites such as from Pressbooks and allow for customization and stronger
+					   integrations. To respect and comply with licensing and copyright protections, imported content
+					   must have a <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/us/">CC BY-NC-SA</a>,
+					   equivalent, or less restrictive license prior to import.</p>
 				</div>
 			</div>
 		</div>
