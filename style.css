@@ -617,6 +617,7 @@ img {
 	height: 850px;
 	position: relative;
 	z-index: 1;
+	text-shadow: 4px 5px 19px #1914149e;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -640,6 +641,7 @@ img {
 .hero-slides .single-hero-slide h4 {
 	color: #ffffff;
 	margin-bottom: 10px;
+	text-shadow: 4px 5px 19px #1914149e;
 }
 
 @media only screen and (max-width: 767px) {
@@ -652,6 +654,7 @@ img {
 	font-size: 60px;
 	color: #ffffff;
 	margin-bottom: 30px;
+	text-shadow: 4px 5px 19px #1914149e;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -1765,4 +1768,16 @@ img#headerLogo {
 
 ul.dropdown {
 	/* min-width: 180px; */
+}
+
+div#topFeatures {
+    display: flex;
+    align-items: stretch;
+}
+
+.single-top-features {
+}
+
+.features-content .col-12.col-md-4 {
+    padding-right: 15px;
 }
