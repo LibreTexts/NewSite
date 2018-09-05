@@ -1089,18 +1089,18 @@ img {
 
 .partners-logo a {
 	display: inline-block;
-	max-width: 130px;
+	max-height: 130px;
 }
 
 @media only screen and (max-width: 767px) {
 	.partners-logo a {
-		max-width: 40px;
+		max-width: 30%;
 	}
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 	.partners-logo a {
-		max-width: 60px;
+		max-width: 150px;
 	}
 }
 
