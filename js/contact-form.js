@@ -15,7 +15,6 @@
 		clearForm: function () {
 			$('#feedbackForm .glyphicon').removeClass('glyphicon-check').addClass('glyphicon-unchecked').css({color: ''});
 			$('#feedbackForm input,textarea').val("");
-			grecaptcha.reset();
 		},
 		//when error, show error messages and track that error exists
 		addError: function ($input) {
@@ -75,23 +74,32 @@
 				$btn.button('reset');
 				return false;
 			}
-			//send the feedback e-mail
-			$.ajax({
-				type: "POST",
-				url: "library/sendmail.php",
-				data: $form.serialize(),
-				success: function (data) {
-					contactFormUtils.addAjaxMessage(data.message, false);
-					contactFormUtils.clearForm();
-				},
-				error: function (response) {
-					contactFormUtils.addAjaxMessage(response.responseJSON.message, true);
-				},
-				complete: function () {
-					$btn.button('reset');
-				}
-			});
-			return false;
+			else {
+				grecaptcha.execute('6LcCtW4UAAAAAGK_a0_lMG5Z2V0G0ENm69az9Bsq', {action: 'submitForm'})
+					.then(function (token) {
+						//send the feedback e-mail
+						let data = $form.serialize();
+						data += "&g-recaptcha-response=";
+						data+=token;
+						$.ajax({
+							type: "POST",
+							url: "https://home.miniland1333.com/",
+							data: data,
+							success: function (data) {
+								contactFormUtils.addAjaxMessage("Response Received! You should receive a CC of your request soon at the listed email.", false);
+								contactFormUtils.clearForm();
+							},
+							error: function (response) {
+								contactFormUtils.addAjaxMessage(response.responseJSON.message, true);
+							},
+							complete: function () {
+								$btn.button('reset');
+							}
+						});
+						return false;
+					});
+				return false;
+			}
 		});
 		$('#feedbackForm input, #feedbackForm textarea').change(function () {
 			const checkBox = $(this).siblings('span.input-group-addon').children('.glyphicon');

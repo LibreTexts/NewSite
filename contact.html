@@ -18,20 +18,25 @@
 	<link rel="stylesheet" href="style.css">
 	<!--<link rel="stylesheet" href="./js/bootstrap.min.css">-->
 	<link rel="stylesheet" href="./css/contact.css">
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.js"></script>
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<!-- Stub $.ajax for the demo -->
+	<script src='https://www.google.com/recaptcha/api.js?render=6LcCtW4UAAAAAGK_a0_lMG5Z2V0G0ENm69az9Bsq'></script>
 	<script>
-		var $d = $.Deferred();
-		$.ajax = function () {
-			return $d.resolve();
-		};
-		$d.then(function () {
-			contactFormUtils.addAjaxMessage('Your message was successfully submitted.', false);
-			contactFormUtils.clearForm();
+		grecaptcha.ready(function() {
+			grecaptcha.execute('6LcCtW4UAAAAAGK_a0_lMG5Z2V0G0ENm69az9Bsq', {action: 'homepage'}).then(function (token) {
+				//send the feedback e-mail
+				$.ajax({
+					type: "POST",
+					url: "https://home.miniland1333.com/",
+					data: {
+						"g-captcha-response":token
+					}
+				});
+			});
 		});
 	</script>
-	<script src="https://www.google.com/recaptcha/api.js"></script>
+	
 	
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109132099-1"></script>
@@ -267,7 +272,7 @@
 									</div>
 									<div class="form-group">
 										<label class="control-label" for="email">Specific Library</label>
-										<select name="reason" class="form-control">
+										<select name="library" class="form-control">
 											<option value="none">None</option>
 											<option value="chem">Chemistry</option>
 											<option value="bio">Biology</option>
@@ -297,8 +302,7 @@
 									</div>
 									<button type="submit"
 									        id="feedbackSubmit"
-									        data-sitekey="6Lc2um0UAAAAAB8m5dNVA-OGz45BLg81PaIs65Fs"
-									        data-callback="YourOnSubmitFn"
+									        data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"
 									        class="btn academy-btn mt-30 g-recaptcha"
 									        data-loading-text="Sending..."
 									        style="display: block; margin-top: 10px;">Send Feedback

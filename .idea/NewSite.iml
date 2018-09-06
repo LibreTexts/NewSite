@@ -15,5 +15,6 @@
     <orderEntry type="library" name="Three49custom" level="application" />
     <orderEntry type="library" name="jquery" level="application" />
     <orderEntry type="library" name="Jupyter" level="application" />
+    <orderEntry type="library" name="jquery.form" level="application" />
   </component>
 </module>
