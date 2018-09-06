@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ed1e6133-9397-4499-b1e4-2d9f09ba756a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/contact-form.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/contact-form.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -61,13 +60,13 @@
     <session id="-1338139440">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
-          <entry key="project.open.time.0" value="1" />
+          <entry key="project.closed" value="13" />
+          <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.5" value="2" />
-          <entry key="project.open.time.6" value="5" />
+          <entry key="project.open.time.6" value="6" />
           <entry key="project.open.time.7" value="4" />
-          <entry key="project.opened" value="14" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -94,32 +93,31 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="186" />
-          <entry key="html" value="7889" />
-          <entry key="js" value="959" />
-          <entry key="txt" value="158" />
+          <entry key="html" value="7891" />
+          <entry key="js" value="960" />
+          <entry key="txt" value="175" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="186" />
-          <entry key="HTML" value="7887" />
+          <entry key="HTML" value="7889" />
           <entry key="JSON" value="2" />
-          <entry key="JavaScript" value="959" />
-          <entry key="PLAIN_TEXT" value="158" />
+          <entry key="JavaScript" value="960" />
+          <entry key="PLAIN_TEXT" value="175" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contact.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="21" column="99" lean-forward="true" selection-start-line="21" selection-start-column="99" selection-end-line="21" selection-end-column="99" />
+            <state relative-caret-position="3">
+              <caret line="271" column="87" lean-forward="true" selection-start-line="271" selection-start-column="87" selection-end-line="271" selection-end-column="87" />
               <folding>
                 <element signature="n#script#4;n#head#0;n#html#0;n#!!top" />
-                <element signature="e#1777#2282#0" />
                 <element signature="n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#span#0;n#div#4;n#form#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -129,11 +127,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/contact-form.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7">
-              <caret line="84" column="21" lean-forward="true" selection-start-line="84" selection-start-column="21" selection-end-line="84" selection-end-column="21" />
+            <state relative-caret-position="94">
+              <caret line="79" column="107" selection-start-line="79" selection-start-column="107" selection-end-line="79" selection-end-column="107" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -209,8 +207,8 @@
         <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/css/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/js/contact-form.js" />
         <option value="$PROJECT_DIR$/contact.html" />
+        <option value="$PROJECT_DIR$/js/contact-form.js" />
       </list>
     </option>
   </component>
@@ -221,8 +219,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="133" />
-    <option name="y" value="310" />
+    <option name="x" value="132" />
+    <option name="y" value="309" />
     <option name="width" value="960" />
     <option name="height" value="1101" />
   </component>
@@ -240,11 +238,6 @@
             <path>
               <item name="NewSite" type="b2602c69:ProjectViewProjectNode" />
               <item name="NewSite" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NewSite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NewSite" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -337,7 +330,9 @@
       <workItem from="1536080496995" duration="662000" />
       <workItem from="1536103215076" duration="2601000" />
       <workItem from="1536116627184" duration="2050000" />
-      <workItem from="1536205926394" duration="11861000" />
+      <workItem from="1536205926394" duration="12442000" />
+      <workItem from="1536218505845" duration="9000" />
+      <workItem from="1536218559581" duration="693000" />
     </task>
     <task id="LOCAL-00001" summary="Bugfixes for mobile">
       <created>1535864283972</created>
@@ -402,11 +397,18 @@
       <option name="project" value="LOCAL" />
       <updated>1536214251568</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Initial Recaptcha">
+      <created>1536217967146</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1536217967146</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65273000" />
+    <option name="totallyTimeSpent" value="66556000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1721" height="935" extended-state="6" />
@@ -415,7 +417,7 @@
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="DB Browser" order="1" show_stripe_button="false" weight="0.32992172" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="3" weight="0.6413793" />
+      <window_info content_ui="combo" id="Project" order="3" weight="0.36845273" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32894737" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -426,7 +428,7 @@
       <window_info anchor="bottom" id="Docker" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="DB Execution Console" order="9" />
-      <window_info anchor="bottom" id="File Transfer" order="10" visible="true" weight="0.23684211" />
+      <window_info anchor="bottom" id="File Transfer" order="10" weight="0.23684211" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.94736844" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32894737" />
@@ -479,7 +481,8 @@
     <MESSAGE value="Added Partner Logos" />
     <MESSAGE value="Small CSS Change" />
     <MESSAGE value="Attempt V3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Attempt V3" />
+    <MESSAGE value="Initial Recaptcha" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Recaptcha" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/img/core-img/logo2.png">
@@ -610,9 +613,7 @@
     <entry file="file://$PROJECT_DIR$/img/Libre/ALS_logo_250.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../ALS_logo_250.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../ALS_logo_250.png" />
     <entry file="file://$PROJECT_DIR$/img/Libre/merlot_logo_250.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -647,27 +648,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/contact-form.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7">
-          <caret line="84" column="21" lean-forward="true" selection-start-line="84" selection-start-column="21" selection-end-line="84" selection-end-column="21" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/contact.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="21" column="99" lean-forward="true" selection-start-line="21" selection-start-column="99" selection-end-line="21" selection-end-column="99" />
+        <state relative-caret-position="3">
+          <caret line="271" column="87" lean-forward="true" selection-start-line="271" selection-start-column="87" selection-end-line="271" selection-end-column="87" />
           <folding>
             <element signature="n#script#4;n#head#0;n#html#0;n#!!top" />
-            <element signature="e#1777#2282#0" />
             <element signature="n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#span#0;n#div#4;n#form#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/contact-form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="79" column="107" selection-start-line="79" selection-start-column="107" selection-end-line="79" selection-end-column="107" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

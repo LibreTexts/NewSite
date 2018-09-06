@@ -77,7 +77,7 @@ function submitToServer(token){
 				hasErrors = $form.validator('validate').hasErrors;
 			}
 			else {
-				$('#feedbackForm input,#feedbackForm textarea').not('.optional').each(function () {
+				$('#feedbackForm input,#feedbackForm textarea').not('.optional').not('#g-recaptcha-response').each(function () {
 					const $this = $(this);
 					if (($this.is(':checkbox') && !$this.is(':checked')) || !$this.val()) {
 						hasErrors = true;
