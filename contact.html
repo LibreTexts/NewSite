@@ -21,28 +21,17 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.js"></script>
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<script src='https://www.google.com/recaptcha/api.js?render=6LcCtW4UAAAAAGK_a0_lMG5Z2V0G0ENm69az9Bsq'></script>
-	<script>
-		grecaptcha.ready(function() {
-			grecaptcha.execute('6LcCtW4UAAAAAGK_a0_lMG5Z2V0G0ENm69az9Bsq', {action: 'homepage'}).then(function (token) {
-				//send the feedback e-mail
-				$.ajax({
-					type: "POST",
-					url: "https://home.miniland1333.com/",
-					data: {
-						"g-captcha-response":token
-					}
-				});
-			});
-		});
-	</script>
-	
+	<script src="https://www.google.com/recaptcha/api.js"></script>
 	
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109132099-1"></script>
 	<script>
 		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
+
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+
 		gtag('js', new Date());
 
 		gtag('config', 'UA-109132099-1');
@@ -300,10 +289,14 @@
 										</div>
 										<span class="help-block" style="display: none;">Please enter a message.</span>
 									</div>
+									<div class="g-recaptcha" id="recap"
+									     data-sitekey="6Lcot24UAAAAADQm0incfCgTaXw2VKS_aW_kxG53"
+									     data-callback="submitToServer"
+									     data-size="invisible">
+									</div>
 									<button type="submit"
 									        id="feedbackSubmit"
-									        data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"
-									        class="btn academy-btn mt-30 g-recaptcha"
+									        class="btn academy-btn mt-30"
 									        data-loading-text="Sending..."
 									        style="display: block; margin-top: 10px;">Send Feedback
 									</button>

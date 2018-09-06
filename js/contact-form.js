@@ -1,3 +1,28 @@
+function submitToServer(token){
+	//send the feedback e-mail
+	console.log(token);
+	const $form = $("#feedbackForm");
+	const $btn = $(this);
+	grecaptcha.reset();
+	$.ajax({
+		type: "POST",
+		url: "https://home.miniland1333.com",
+		data: $form.serialize() +token,
+		success: function (data) {
+			console.log(data);
+			contactFormUtils.addAjaxMessage(data.responseDesc, false);
+			contactFormUtils.clearForm();
+		},
+		error: function (response) {
+			contactFormUtils.addAjaxMessage(response.responseJSON.message, true);
+		},
+		complete: function () {
+			$btn.button('reset');
+			grecaptcha.reset();
+		}
+	});
+}
+
 (function (window) {
 	//using regular expressions, validate email
 	const contactFormUtils = window.contactFormUtils = {
@@ -38,8 +63,9 @@
 			$(".intl-tel-input.inside").css('width', '100%');
 		}
 
+		$("#recap").click(function () {return false});
 		$("#feedbackSubmit").click(function () {
-			const $btn = $(this);
+			const $btn = $("#feedbackSubmit");
 			$btn.button('loading');
 			contactFormUtils.clearErrors();
 
@@ -74,32 +100,8 @@
 				$btn.button('reset');
 				return false;
 			}
-			else {
-				grecaptcha.execute('6LcCtW4UAAAAAGK_a0_lMG5Z2V0G0ENm69az9Bsq', {action: 'submitForm'})
-					.then(function (token) {
-						//send the feedback e-mail
-						let data = $form.serialize();
-						data += "&g-recaptcha-response=";
-						data+=token;
-						$.ajax({
-							type: "POST",
-							url: "https://home.miniland1333.com/",
-							data: data,
-							success: function (data) {
-								contactFormUtils.addAjaxMessage("Response Received! You should receive a CC of your request soon at the listed email.", false);
-								contactFormUtils.clearForm();
-							},
-							error: function (response) {
-								contactFormUtils.addAjaxMessage(response.responseJSON.message, true);
-							},
-							complete: function () {
-								$btn.button('reset');
-							}
-						});
-						return false;
-					});
-				return false;
-			}
+			grecaptcha.execute();
+			return false;
 		});
 		$('#feedbackForm input, #feedbackForm textarea').change(function () {
 			const checkBox = $(this).siblings('span.input-group-addon').children('.glyphicon');
