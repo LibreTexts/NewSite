@@ -882,6 +882,9 @@ img {
 
 .single-testimonial-area .testimonial-thumb img {
 	border-radius: 50%;
+	width: 51px;
+	height: 51px;
+	object-fit: cover;
 }
 
 .single-testimonial-area .testimonial-content h5 {

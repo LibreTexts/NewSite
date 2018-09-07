@@ -1,8 +1,8 @@
-a:hover {
+.normalLink:hover {
 	color: #218ca6;
 }
 
-a {
+.normalLink {
 	color: #0F67A6;
 	text-decoration: underline;
 }

@@ -286,3 +286,12 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
 	bottom: 80px;
 	right: 30px;
 }
+
+.normalLink {
+	color: #218ca6;
+}
+
+.normalLink {
+	color: #0F67A6;
+	text-decoration: underline;
+}
