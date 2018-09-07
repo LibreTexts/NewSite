@@ -1,45 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed1e6133-9397-4499-b1e4-2d9f09ba756a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/testimonials/Jessica_Coppola.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/testimonials/Layne_Morsch.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/testimonials/Lynne_LoPresto.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/about-us.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced.html" beforeDir="false" afterPath="$PROJECT_DIR$/advanced.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course.html" beforeDir="false" afterPath="$PROJECT_DIR$/course.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/advanced.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/advanced.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/contact.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elements.html" beforeDir="false" afterPath="$PROJECT_DIR$/elements.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Libre/CSU_ALS.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/sponsors/CSU_ALS.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Libre/MERLOT2_logo.gif" beforeDir="false" afterPath="$PROJECT_DIR$/img/sponsors/Merlot2.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Libre/NSF Logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/sponsors/NSF.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Libre/UCD Library.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/sponsors/UCD_Library.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Libre/UCD.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/sponsors/UCD.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Libre/avatar_liz.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Libre/avatar_richie.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Libre/avatar_template.psd" beforeDir="false" afterPath="$PROJECT_DIR$/img/LibreTexts/avatar_template.psd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Libre/bg_laptop.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/LibreTexts/bg_laptop.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Libre/header_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/LibreTexts/header_logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Libre/header_logo_mini.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/LibreTexts/header_logo_mini.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Libre/header_text.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/LibreTexts/header_text.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Libre/merlot_logo_250.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/sponsors/Merlot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/clients-img/partner-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/clients-img/partner-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/clients-img/partner-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/clients-img/partner-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/clients-img/partner-5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/core-img/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/img/favicons/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/core-img/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/favicons/favicon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/core-img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/core-img/logo2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="ed1e6133-9397-4499-b1e4-2d9f09ba756a" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -132,7 +94,7 @@
           <entry key="css" value="271" />
           <entry key="html" value="8607" />
           <entry key="js" value="960" />
-          <entry key="txt" value="277" />
+          <entry key="txt" value="329" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -141,7 +103,7 @@
           <entry key="HTML" value="8605" />
           <entry key="JSON" value="2" />
           <entry key="JavaScript" value="960" />
-          <entry key="PLAIN_TEXT" value="277" />
+          <entry key="PLAIN_TEXT" value="329" />
         </counts>
       </usages-collector>
     </session>
@@ -151,8 +113,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="372" column="58" selection-start-line="372" selection-start-column="58" selection-end-line="372" selection-end-column="58" />
+            <state relative-caret-position="378">
+              <caret line="649" column="57" lean-forward="true" selection-start-line="649" selection-start-column="57" selection-end-line="649" selection-end-column="57" />
               <folding>
                 <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
@@ -381,7 +343,7 @@
       <workItem from="1536218559581" duration="1214000" />
       <workItem from="1536253099974" duration="612000" />
       <workItem from="1536268482501" duration="11000" />
-      <workItem from="1536285891683" duration="5913000" />
+      <workItem from="1536285891683" duration="6165000" />
     </task>
     <task id="LOCAL-00001" summary="Bugfixes for mobile">
       <created>1535864283972</created>
@@ -467,11 +429,25 @@
       <option name="project" value="LOCAL" />
       <updated>1536288300369</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Initial Testimonials">
+      <created>1536292191160</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1536292191160</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Added missing testimonial images">
+      <created>1536292237799</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1536292237799</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73613000" />
+    <option name="totallyTimeSpent" value="73865000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1721" height="935" extended-state="6" />
@@ -480,11 +456,11 @@
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="DB Browser" order="1" show_stripe_button="false" weight="0.32992172" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="3" weight="0.21252258" />
+      <window_info content_ui="combo" id="Project" order="3" visible="true" weight="0.21252258" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32894737" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.19210526" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.19210526" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -548,7 +524,9 @@
     <MESSAGE value="Initial Recaptcha" />
     <MESSAGE value="Bugfix form verification" />
     <MESSAGE value="Added Additional Sponsors&#10;&#10;CSS Fixes&#10;Created index.css" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Additional Sponsors&#10;&#10;CSS Fixes&#10;Created index.css" />
+    <MESSAGE value="Initial Testimonials" />
+    <MESSAGE value="Added missing testimonial images" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added missing testimonial images" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/scss/_theme_color.scss">
@@ -779,8 +757,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="372" column="58" selection-start-line="372" selection-start-column="58" selection-end-line="372" selection-end-column="58" />
+        <state relative-caret-position="378">
+          <caret line="649" column="57" lean-forward="true" selection-start-line="649" selection-start-column="57" selection-end-line="649" selection-end-column="57" />
           <folding>
             <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
