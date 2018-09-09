@@ -1118,7 +1118,7 @@ img {
 	background: #127BC4;
 	background: -webkit-linear-gradient(to right, #127BC4, #0F67A6);
 	background: linear-gradient(to right, #127BC4, #0F67A6);
-	padding: 70px 0;
+	padding: 40px 0;
 }
 
 .call-to-action-area .cta-content h3 {
@@ -1793,3 +1793,5 @@ div#topFeatures {
 		align-items: center;
 	}
 }
+
+.main-footer-area.customFooter {}
