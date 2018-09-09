@@ -863,6 +863,7 @@ img {
 .single-testimonial-area {
 	position: relative;
 	z-index: 1;
+	padding-bottom: 50px;
 }
 
 .single-testimonial-area .testimonial-thumb {
@@ -1616,6 +1617,7 @@ img {
 .single-cool-fact {
 	position: relative;
 	z-index: 1;
+	padding-bottom: 10px;
 }
 
 .single-cool-fact i {
@@ -1626,9 +1628,9 @@ img {
 }
 
 .single-cool-fact h3 {
-	font-size: 48px;
+	font-size: 40px;
 	font-weight: 400;
-	margin-bottom: 5px;
+	margin-bottom: 0;
 }
 
 .single-cool-fact p {
