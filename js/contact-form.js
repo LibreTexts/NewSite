@@ -40,6 +40,7 @@ function submitToServer(token){
 		clearForm: function () {
 			$('#feedbackForm .glyphicon').removeClass('glyphicon-check').addClass('glyphicon-unchecked').css({color: ''});
 			$('#feedbackForm input,textarea').val("");
+			$("#feedbackForm select").prop('selectedIndex',0);
 		},
 		//when error, show error messages and track that error exists
 		addError: function ($input) {

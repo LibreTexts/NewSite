@@ -6,19 +6,3 @@
 	color: #0F67A6;
 	text-decoration: underline;
 }
-
-.main-footer-area.customFooter {
-	display: flex;
-	padding: 10px;
-	justify-content: center;
-	align-items: center;
-}
-
-@media only screen and (max-width: 767px) {
-	.main-footer-area.customFooter {
-		flex-direction: column;
-	}
-	.main-footer-area.customFooter p{
-text-align: center;
-	}
-}
