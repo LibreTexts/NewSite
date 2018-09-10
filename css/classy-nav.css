@@ -2,7 +2,7 @@
 	margin: 0
 }
 
-.classynav ul li.megamenu-item > a:after, .icon-down-arrow:before {
+.classynav ul li.megamenu-item > a:after, .classynav ul li.cn-dropdown-item > a:after, .icon-down-arrow:before {
 	content: "\e900"
 }
 
@@ -180,7 +180,7 @@ img {
 	-moz-osx-font-smoothing: grayscale;
 }
 
-.classynav ul li.megamenu-item > a:after , .classynav ul li.cn-dropdown-item > a:after {
+.classynav ul li.megamenu-item > a:after, .classynav ul li.cn-dropdown-item > a:after {
 	font-family: icomoon !important;
 	font-size: 11px;
 	color: #000;
@@ -569,7 +569,7 @@ img {
 	opacity: 1
 }
 
-.breakpoint-off .classynav ul li.megamenu-item .dd-arrow {
+.breakpoint-off .classynav ul li.megamenu-item .dd-arrow,.breakpoint-off .classynav ul li.cn-dropdown-item .dd-arrow {
 	display: none
 }
 
@@ -762,7 +762,7 @@ img {
 	display: block
 }
 
-.breakpoint-on .classynav ul li .dropdown, .breakpoint-on .classynav ul li .megamenu, .breakpoint-on .classynav ul li.megamenu-item > a:after {
+.breakpoint-on .classynav ul li .dropdown, .breakpoint-on .classynav ul li .megamenu, .breakpoint-on .classynav ul li.megamenu-item > a:after, .breakpoint-on .classynav ul li.cn-dropdown-item > a:after {
 	display: none
 }
 
