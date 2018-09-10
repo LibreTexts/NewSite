@@ -149,11 +149,11 @@ img {
 }
 
 .classynav ul li a {
-	padding: 0 12px;
+	padding: 0 21px;
 	display: block;
 	height: 35px;
 	font-size: 14px;
-	line-height: 34px
+	line-height: 34px;
 }
 
 .classynav ul li .megamenu li a {
@@ -180,7 +180,7 @@ img {
 	-moz-osx-font-smoothing: grayscale;
 }
 
-.classynav ul li.megamenu-item > a:after {
+.classynav ul li.megamenu-item > a:after , .classynav ul li.cn-dropdown-item > a:after {
 	font-family: icomoon !important;
 	font-size: 11px;
 	color: #000;
@@ -390,7 +390,7 @@ img {
 	-webkit-transform: rotate(0);
 	transform: rotate(0);
 	position: absolute;
-	right: 15px
+	right: 10px;
 }
 
 .has-down .dd-arrow, .megamenu-item .dd-arrow {
