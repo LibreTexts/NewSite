@@ -84,3 +84,8 @@ section.about-us-area.mt-50 {
 		color: #127cc5;
 	}
 }
+
+ul#collabTab {
+}
+
+#collabTab li.nav-item {margin-bottom: 2px;}
