@@ -1844,3 +1844,7 @@ div#topFeatures {
 .academy-tabs-content .nav-tabs .nav-link {
     border: 2px solid #127BC4;
 }
+
+section.mission {
+    padding-top: 75px;
+}
