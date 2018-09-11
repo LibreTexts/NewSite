@@ -61,7 +61,6 @@ ol li {
 }
 
 img {
-	max-width: 80%;
 }
 
 /* Spacing */
@@ -1763,13 +1762,7 @@ img {
 
 /*# sourceMappingURL=style.css.map */
 
-img#headerLogoMini {
-"height: 45px";
-"height: 45px";
-"height: 45px";
-"height: 45px";
-	height: 45px;
-}
+img#headerLogoMini {"height: 45px";"height: 45px";"height: 45px";"height: 45px";height: 45px;}
 
 img#headerLogo {
 	margin-left: 5px;

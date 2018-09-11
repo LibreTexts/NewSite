@@ -50,6 +50,24 @@ section.about-us-area.mt-50 {
 	background: #09a6fc;
 }
 
+.team-member-top {
+	white-space: pre-line;
+	display: flex;
+	margin-bottom: 50px;
+	background: -webkit-gradient(linear, right top, left top, from(#127cc5), to(#ffffff));
+}
+
+.team-member-top div {
+    font-size: x-large;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    color: white;
+    flex: 1;
+    justify-content: center;
+}
+
 @media (max-width: 767px) {
 	ul#myTab {
 		flex-direction: column;
@@ -59,21 +77,10 @@ section.about-us-area.mt-50 {
 	.team-member-top {
 		flex-direction: column;
 		align-items: center;
+		background: none;
 	}
-}
 
-.team-member-top {
-	white-space: pre-line;
-	display: flex;
-	justify-content: space-around;
-	margin-bottom: 50px;
-}
-
-.team-member-top div {
-    font-size: x-large;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    font-weight: 700;
-    color: #0f67a6;
+	.team-member-top div{
+		color: #127cc5;
+	}
 }
