@@ -2,9 +2,11 @@
 	max-width: 100%;
 	border: 2px solid orange;
 	background-color: orange;
-    white-space: normal;
+	white-space: normal;
 	font-size: 30px;
 	font-weight: 600;
+	color: white;
+	box-shadow: 4px 5px 12px 1px #0000005e;
 }
 .cta-content h3:hover {
 	color: orange;
