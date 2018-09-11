@@ -296,11 +296,11 @@ img {
 	display: inline-block;
 	float: left;
 	padding: 15px;
-	border-right: 1px solid #f2f4f8
+	border-right: 1px solid #f2f4f8;
 }
 
 .classynav ul li .megamenu .single-mega.cn-col-4:last-of-type {
-	border-right: none
+	border-right: none;
 }
 
 .classynav ul li .megamenu .single-mega.cn-col-3 {

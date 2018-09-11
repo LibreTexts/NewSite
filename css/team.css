@@ -89,3 +89,7 @@ ul#collabTab {
 }
 
 #collabTab li.nav-item {margin-bottom: 2px;}
+
+.single-mega img {
+    height: 140px;
+}
