@@ -1,0 +1,15 @@
+.cta-content h3 {
+	max-width: 100%;
+	border: 2px solid orange;
+	background-color: orange;
+    white-space: normal;
+	font-size: 30px;
+	font-weight: 600;
+}
+.cta-content h3:hover {
+	color: orange;
+	background-color: #fafafa;
+}
+.cta-content a {
+    max-width: 100%;
+}

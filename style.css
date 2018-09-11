@@ -1852,3 +1852,7 @@ section.mission {
 .single-mega img {
     height: 150px;
 }
+
+section.mission {
+    padding: 75px 0;
+}

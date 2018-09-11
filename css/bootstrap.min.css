@@ -239,11 +239,11 @@ button, input, optgroup, select, textarea {
 }
 
 button, input {
-	overflow: visible
+	overflow: visible;
 }
 
 button, select {
-	text-transform: none
+	text-transform: none;
 }
 
 [type=reset], [type=submit], button, html [type=button] {
@@ -1438,7 +1438,7 @@ pre code {
 		-ms-flex: 0 0 auto;
 		flex: 0 0 auto;
 		width: auto;
-		max-width: none
+		max-width: none;
 	}
 
 	.col-xl-1 {
@@ -2352,7 +2352,7 @@ select.form-control:focus::-ms-value {
 	font-size: 1rem;
 	line-height: 1.5;
 	border-radius: .25rem;
-	transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out
+	transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
 @media screen and (prefers-reduced-motion: reduce) {

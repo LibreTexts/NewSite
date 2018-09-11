@@ -16,7 +16,7 @@
 .academy-tab-content.team-container {
 	display: flex;
 	flex-wrap: wrap;
-	background-color: #fdf8f3;
+	background-color: #f3f3f3;
 	padding: 10px;
 	justify-content: space-evenly;
 	border-radius: 10px;
@@ -36,6 +36,7 @@
 .team-member p {
 	color: #127bc4;
 	font-weight: 700;
+	white-space: pre-line;
 }
 
 .breadcumb-area.bg-img {
@@ -92,4 +93,8 @@ ul#collabTab {
 
 .single-mega img {
     height: 140px;
+}
+
+#teamText p {
+    margin-bottom: 50px;
 }
