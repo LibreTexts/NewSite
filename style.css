@@ -414,7 +414,7 @@ img {
 /* Header Area CSS */
 .header-area {
 	position: relative;
-	z-index: 50;
+	z-index: 100;
 	width: 100%;
 	height: 125px;
 }
@@ -636,7 +636,7 @@ img {
 
 @media only screen and (max-width: 767px) {
 	.hero-slides .single-hero-slide {
-		height: 80vh;
+		height: 90vh;
 	}
 }
 
