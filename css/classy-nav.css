@@ -132,6 +132,7 @@ img {
 	position: relative;
 	z-index: 10;
 	width: max-content;
+	width: -moz-max-content;
 }
 
 @media (max-width: 990px){

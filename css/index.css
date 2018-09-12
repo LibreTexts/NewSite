@@ -15,3 +15,12 @@
 .cta-content a {
     max-width: 100%;
 }
+
+
+.cta-content {
+    margin-bottom: 50px;
+}
+
+.cta-content h2 {
+	text-align: center;
+}
