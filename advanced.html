@@ -190,6 +190,7 @@
 		</div>
 		<div class="row">
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js"></script>
 			<script src="https://awesomefiles.libretexts.org/GLmol/js/Three49custom.js"></script>
 			<script src="https://awesomefiles.libretexts.org/GLmol/js/GLmol.js"></script>
 			<div class="col-12">
@@ -218,7 +219,7 @@
 						        data-label="true" data-id="=2POR" data-spin="true" data-border="true"></script>
 						<!--data-multiple="true"-->
 						<iframe frameborder="0" style="border:1px solid orange; max-width: 80%"
-						        src="https://www.monroecc.edu/faculty/paulseeburger/CalcPlot3D/dynamicFigure/?type=parametric;parametric=2;x=(4-v*sin(u))*cos(2u);y=(4-v*sin(u))*sin(2u);z=v*cos(u);visible=true;umin=0;umax=pi;usteps=40;vmin=-1;vmax=1;vsteps=3;alpha=-1;format=normal;constcol=rgb(255,0,0)&amp;type=window;hsrmode=3;nomidpts=true;anaglyph=-1;center=16.472782070926637,9.510565162951533,6.180339887498949,1;focus=0,0,0,1;up=0,0,2,1;transparent=false;alpha=140;twoviews=false;unlinkviews=false;axisextension=0.7;xaxislabel=x;yaxislabel=y;zaxislabel=z;edgeson=true;faceson=true;showbox=false;showaxes=false;showticks=true;perspective=true;centerxpercent=0.5;centerypercent=0.5;rotationsteps=30;autospin=true;xygrid=false;yzgrid=false;xzgrid=false;gridsonbox=true;gridplanes=false;gridcolor=rgb(128,128,128);xmin=-4;xmax=4;ymin=-4;ymax=4;zmin=-4;zmax=4;xscale=1;yscale=1;zscale=1;zcmin=-8;zcmax=8;zoom=0.5;xscalefactor=1;yscalefactor=1;zscalefactor=1"
+						        src="https://www.monroecc.edu/faculty/paulseeburger/CalcPlot3D/dynamicFigure/?type=parametric;parametric=2;x=(4-v*sin(u))*cos(2u);y=(4-v*sin(u))*sin(2u);z=v*cos(u);visible=true;umin=0;umax=pi;usteps=40;vmin=-1;vmax=1;vsteps=3;alpha=-1;format=normal;constcol=rgb(255,0,0)&amp;type=window;hsrmode=3;nomidpts=true;anaglyph=-1;center=16.472782070926637,9.510565162951533,6.180339887498949,1;focus=0,0,0,1;up=0,0,2,1;transparent=false;alpha=140;twoviews=false;unlinkviews=false;axisextension=0.7;xaxislabel=x;yaxislabel=y;zaxislabel=z;edgeson=true;faceson=true;showbox=false;showaxes=false;showticks=true;perspective=true;centerxpercent=0.5;centerypercent=0.5;rotationsteps=30;autospin=true;xygrid=false;yzgrid=false;xzgrid=false;gridsonbox=true;gridplanes=false;gridcolor=rgb(128,128,128);xmin=-4;xmax=4;ymin=-4;ymax=4;zmin=-4;zmax=4;xscale=1;yscale=1;zscale=1;zcmin=-8;zcmax=8;zoom=0.5;xscalefactor=1;yscalefactor=1;zscalefactor=1;rotatestart=true;rotatedirectionx=1;calcplotlabel=true"
 						        height="400px" width="500px"></iframe>
 					</div>
 				</div>
@@ -237,7 +238,7 @@
 							"preload": true
 						}
 					</script>
-					<pre data-jupyter="true">
+					<pre data-jupyter="true" >
 %%python3
 
 import urllib.request
