@@ -72,3 +72,6 @@
 .normalLink:hover{
 	color: #218ca6;
 }
+div.CodeMirror-scroll{
+	height: 200px;
+}
