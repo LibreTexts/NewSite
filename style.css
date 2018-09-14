@@ -1856,3 +1856,25 @@ section.mission {
 section.mission {
     padding: 75px 0;
 }
+
+img.icon {
+	width: 25px;
+	height: 25px;
+	margin-right: 5px;
+	object-fit: contain;
+}
+
+.megamenu .single-mega li {
+	border-radius: 10px;
+	padding: 1px;
+}
+.megamenu .single-mega li a{
+	border-radius: 10px;
+	color: #127bc4;
+	border: 2px solid white;
+}
+
+.megamenu .single-mega a {
+    display: flex;
+    align-items: center;
+}
