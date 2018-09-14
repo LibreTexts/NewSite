@@ -1871,8 +1871,8 @@ img.icon {
 .megamenu .single-mega li a{
 	border-radius: 10px;
 	color: #127bc4;
-	/*border: 2px solid white;*/
-	background: white;
+	border: 2px solid white;
+	/*background: white;*/
 }
 
 .megamenu .single-mega a {

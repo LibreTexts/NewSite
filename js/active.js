@@ -118,19 +118,21 @@
 		function () {
 			const ref = $(this).children()[0];
 			const img = ref.getElementsByTagName("img")[0];
-			img.src = img.src.replace("/glyphs_blue/", "/glyphs_white/");
+			img.src = img.src.replace("/glyphs_blue/", "/glyphs/");
 
 			const color = ref.dataset.color;
-			ref.style.background = color;
-			ref.style.color = "white";
+			ref.style.border = "2px solid " + color;
+			// ref.style.background = color;
+			ref.style.color = color;
 		},
 		function () {
 			const ref = $(this).children()[0];
 			const img = ref.getElementsByTagName("img")[0];
-			img.src = img.src.replace("/glyphs_white/", "/glyphs_blue/");
+			img.src = img.src.replace("/glyphs/", "/glyphs_blue/");
 
 			const color = "#127bc4";
-			ref.style.background = "white";
+			ref.style.border = "2px solid white";
+			// ref.style.background = "white";
 			ref.style.color = color;
 		});
 
