@@ -75,3 +75,22 @@
 div.CodeMirror-scroll{
 	height: 200px;
 }
+button.thebelab-button {
+	background: #efefef;
+	border: 1px solid #969696;
+	padding: 0.3em .8em;
+	border-radius: 3px;
+	font-weight: 600;
+	font-size: larger;
+	box-shadow: 3px 5px 8px 1px #00000073;
+}
+
+button.thebelab-run-button {
+	border: 1px solid green;
+	background: green;
+	color: white;
+}
+button.thebelab-run-button:hover {
+	background: white;
+	color: green;
+}
