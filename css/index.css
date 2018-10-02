@@ -8,19 +8,26 @@
 	color: white;
 	box-shadow: 4px 5px 12px 1px #0000005e;
 }
+
 .cta-content h3:hover {
 	color: orange;
 	background-color: #fafafa;
 }
+
 .cta-content a {
-    max-width: 100%;
+	max-width: 100%;
 }
 
-
 .cta-content {
-    margin-bottom: 50px;
+	margin-bottom: 50px;
 }
 
 .cta-content h2 {
 	text-align: center;
+}
+
+@media (max-width: 767px) {
+	#fromDOE {
+		display: none;
+	}
 }
