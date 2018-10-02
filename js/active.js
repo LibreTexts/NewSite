@@ -29,7 +29,9 @@
 			dots: true,
 			// autoplay: true,
 			// autoplayTimeout: 10000,
-			smartSpeed: 1000
+			// smartSpeed: 1000
+			mouseDrag: false,
+			touchDrag: false,
 		});
 
 		welcomeSlide.on('translate.owl.carousel', function () {
