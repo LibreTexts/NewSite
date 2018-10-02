@@ -30,4 +30,12 @@
 	#fromDOE {
 		display: none;
 	}
+
+	#extension {
+		height: 20vh;
+	}
+}
+
+#pressRelease {
+	display: none;
 }
