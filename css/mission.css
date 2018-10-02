@@ -2,3 +2,15 @@
     white-space: pre-line;
     font-size: larger;
 }
+
+.breadcumb-area.bg-img {
+    height: 250px;
+}
+
+h2 {
+    margin: 0 50px;
+}
+.breadcumb-area .bradcumbContent {
+    width: fit-content;
+    width: -moz-fit-content;
+}
