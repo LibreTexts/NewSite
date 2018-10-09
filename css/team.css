@@ -9,9 +9,10 @@
 }
 
 .team-member img {
-	width: 250px;
+	width: 200px;
 	max-width: 100%;
-	margin-bottom: 10px;
+	height: 200px;
+	border-radius: 5px 5px 0 0;
 }
 
 .academy-tab-content.team-container {
@@ -28,16 +29,25 @@
 	margin: 10px;
 	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 	transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+	border: 0;
+	width: 200px;
+	display: flex;
+	flex-direction: column;
+	padding: 0;
 }
 
 .team-member:hover {
 	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
-.team-member p {
+.team-tileText .teamTitle{
 	color: #127bc4;
-	font-weight: 700;
+	font-weight: 400;
 	white-space: pre-line;
+	line-height: 1.3;
+	margin: 0;
+	/* flex: 1; */
+	font-size: 90%;
 }
 
 .breadcumb-area.bg-img {
@@ -77,13 +87,18 @@ section.about-us-area.mt-50 {
 	}
 
 	.team-member-top {
-		flex-direction: column;
 		align-items: center;
-		background: none;
+		margin-bottom: 20px;
 	}
 
 	.team-member-top div{
-		color: #127cc5;
+		/* color: #127cc5; */
+		font-size: medium;
+		padding: 10px;
+	}
+	.team-member-modal img{
+		width: 30%;
+		height: auto;
 	}
 }
 
@@ -94,4 +109,18 @@ ul#collabTab {
 
 #teamText p {
     margin-bottom: 50px;
+}
+
+.team-tileText {
+    padding: 10px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 1;
+}
+
+.team-tileText h5 {
+    /* margin: 0; */
+    font-size: 100%;
 }
