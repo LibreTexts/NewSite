@@ -23,13 +23,13 @@
 		welcomeSlide.owlCarousel({
 			items: 1,
 			margin: 0,
-			// loop: true,
-			// nav: true,
-			// navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
+			loop: true,
+			nav: true,
+			navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
 			dots: true,
-			// autoplay: true,
-			// autoplayTimeout: 10000,
-			// smartSpeed: 1000
+			autoplay: true,
+			autoplayTimeout: 10000,
+			smartSpeed: 1000,
 			mouseDrag: false,
 			touchDrag: false,
 		});
