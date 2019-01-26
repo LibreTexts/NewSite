@@ -1880,3 +1880,7 @@ img.icon {
     display: flex;
     align-items: center;
 }
+
+.nav-tabs .nav-item {
+    margin: 4px 0;
+}
