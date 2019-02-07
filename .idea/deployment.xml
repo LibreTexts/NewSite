@@ -5,7 +5,7 @@
       <paths name="Static">
         <serverdata>
           <mappings>
-            <mapping deploy="/NewSite" local="$PROJECT_DIR$" web="/NewSite" />
+            <mapping deploy="/SiteTesting" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
