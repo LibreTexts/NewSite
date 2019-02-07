@@ -20,7 +20,7 @@
 	flex-wrap: wrap;
 	background-color: #f3f3f3;
 	padding: 10px;
-	justify-content: space-evenly;
+	justify-content: space-around;
 	border-radius: 10px;
 }
 
