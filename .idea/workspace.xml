@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed1e6133-9397-4499-b1e4-2d9f09ba756a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/LibreTexts/full_logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/team.html" beforeDir="false" afterPath="$PROJECT_DIR$/team.html" afterDir="false" />
     </list>
@@ -17,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/team.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="1746" column="86" lean-forward="true" selection-start-line="1746" selection-start-column="30" selection-end-line="1746" selection-end-column="86" />
+            <state relative-caret-position="-533">
+              <caret line="467" column="42" lean-forward="true" selection-start-line="467" selection-start-column="42" selection-end-line="467" selection-end-column="42" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" />
                 <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
@@ -74,6 +73,9 @@
                 <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#15;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="e#15872#18611#0" />
                 <element signature="e#24317#24324#1" expanded="true" />
                 <element signature="e#27008#27015#1" expanded="true" />
                 <element signature="e#29154#29161#1" expanded="true" />
@@ -122,6 +124,16 @@
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/img/LibreTexts/full_logo.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/LibreTexts/header_logo.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -249,6 +261,17 @@
             <path>
               <item name="NewSite" type="b2602c69:ProjectViewProjectNode" />
               <item name="NewSite" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewSite" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewSite" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="LibreTexts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -444,14 +467,7 @@
       <workItem from="1548546134389" duration="419000" />
       <workItem from="1549409236609" duration="1035000" />
       <workItem from="1549572534897" duration="100000" />
-      <workItem from="1549594075434" duration="1300000" />
-    </task>
-    <task id="LOCAL-00016" summary="Larsen Review changes&#10;&#10;-Removed Read more buttons&#10;-Added counter up widget&#10;-Added Accessible widget&#10;-Removed headers&#10;-Reduced Padding&#10;-Mimimalized footer content">
-      <created>1536462504012</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1536462504012</updated>
+      <workItem from="1549594075434" duration="1868000" />
     </task>
     <task id="LOCAL-00017" summary="Minor CSS Change">
       <created>1536467964188</created>
@@ -789,11 +805,18 @@
       <option name="project" value="LOCAL" />
       <updated>1548479632984</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="Added Gautam">
+      <created>1549595595814</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1549595595814</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="235064000" />
+    <option name="totallyTimeSpent" value="235632000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1381" height="885" extended-state="6" />
@@ -802,7 +825,7 @@
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="DB Browser" order="1" show_stripe_button="false" weight="0.32992172" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="3" weight="0.33862433" />
+      <window_info active="true" content_ui="combo" id="Project" order="3" visible="true" weight="0.33862433" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32894737" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -856,7 +879,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="Swapped out advanced molecule" />
     <MESSAGE value="Added colorful Libraries" />
     <MESSAGE value="Even more color" />
     <MESSAGE value="Reverted too colorful topbar" />
@@ -881,7 +903,8 @@
     <MESSAGE value="Added New People" />
     <MESSAGE value="Updated Header" />
     <MESSAGE value="Rearrangement" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rearrangement" />
+    <MESSAGE value="Added Gautam" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Gautam" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/deprecatedHTML/about-us.html">
@@ -1361,9 +1384,6 @@
     <entry file="file://$PROJECT_DIR$/img/LibreTexts/bg_laptop.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/LibreTexts/header_logo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/LibreTexts/header_logo_mini.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -1373,13 +1393,10 @@
     <entry file="file://$PROJECT_DIR$/img/LibreTexts/logoClear.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/LibreTexts/full_logo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/team.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="1746" column="86" lean-forward="true" selection-start-line="1746" selection-start-column="30" selection-end-line="1746" selection-end-column="86" />
+        <state relative-caret-position="-533">
+          <caret line="467" column="42" lean-forward="true" selection-start-line="467" selection-start-column="42" selection-end-line="467" selection-end-column="42" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" />
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
@@ -1432,6 +1449,9 @@
             <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#15;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#15872#18611#0" />
             <element signature="e#24317#24324#1" expanded="true" />
             <element signature="e#27008#27015#1" expanded="true" />
             <element signature="e#29154#29161#1" expanded="true" />
@@ -1480,6 +1500,12 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/LibreTexts/header_logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/LibreTexts/full_logo.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
 </project>
