@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed1e6133-9397-4499-b1e4-2d9f09ba756a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/LibreTexts/full_logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/team.html" beforeDir="false" afterPath="$PROJECT_DIR$/team.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,8 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/team.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="259" column="42" lean-forward="true" selection-start-line="259" selection-start-column="42" selection-end-line="259" selection-end-column="42" />
+            <state relative-caret-position="342">
+              <caret line="1746" column="86" lean-forward="true" selection-start-line="1746" selection-start-column="30" selection-end-line="1746" selection-end-column="86" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" />
                 <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
@@ -102,6 +102,7 @@
                 <element signature="e#77763#77770#1" expanded="true" />
                 <element signature="e#80177#80184#1" expanded="true" />
                 <element signature="e#80936#80943#1" expanded="true" />
+                <element signature="e#82645#82652#1" expanded="true" />
                 <element signature="e#82357#82364#1" expanded="true" />
                 <element signature="e#84141#84148#1" expanded="true" />
                 <element signature="e#86430#86437#1" expanded="true" />
@@ -119,15 +120,6 @@
                 <element signature="n#style#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="e#119167#119173#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/team.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -237,10 +229,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1588" />
-    <option name="y" value="-22" />
-    <option name="width" value="2762" />
-    <option name="height" value="1770" />
+    <option name="x" value="342" />
+    <option name="y" value="218" />
+    <option name="width" value="2052" />
+    <option name="height" value="1308" />
   </component>
   <component name="ProjectLevelVcsManager">
     <OptionsSetting value="false" id="Update" />
@@ -250,6 +242,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -261,7 +254,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -452,6 +444,7 @@
       <workItem from="1548546134389" duration="419000" />
       <workItem from="1549409236609" duration="1035000" />
       <workItem from="1549572534897" duration="100000" />
+      <workItem from="1549594075434" duration="1300000" />
     </task>
     <task id="LOCAL-00016" summary="Larsen Review changes&#10;&#10;-Removed Read more buttons&#10;-Added counter up widget&#10;-Added Accessible widget&#10;-Removed headers&#10;-Reduced Padding&#10;-Mimimalized footer content">
       <created>1536462504012</created>
@@ -800,16 +793,16 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="233764000" />
+    <option name="totallyTimeSpent" value="235064000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1594" y="-16" width="1381" height="885" extended-state="6" />
+    <frame x="-6" y="-6" width="1381" height="885" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="DB Browser" order="1" show_stripe_button="false" weight="0.32992172" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="3" visible="true" weight="0.33333334" />
+      <window_info content_ui="combo" id="Project" order="3" weight="0.33862433" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32894737" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -820,7 +813,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.328" />
       <window_info anchor="bottom" id="DB Execution Console" order="9" />
-      <window_info active="true" anchor="bottom" id="File Transfer" order="10" visible="true" weight="0.95726496" />
+      <window_info anchor="bottom" id="File Transfer" order="10" weight="0.95726496" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.7171429" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.500301" side_tool="true" weight="0.43157893" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32894737" />
@@ -891,12 +884,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Rearrangement" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/img/sponsors/clear/CSU_ALS.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/sponsors/clear/Merlot.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/deprecatedHTML/about-us.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
@@ -929,22 +916,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/LibreTexts/logoClear.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/LibreTexts/header_logo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/LibreTexts/header_logo_mini.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/LibreTexts/header_text.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/LibreTexts/avatar_template.psd">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/LibreTexts/bg_laptop.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/img/sponsors/DOE.png">
@@ -1378,15 +1350,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/team.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
+        <state relative-caret-position="644">
           <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/img/LibreTexts/glyphs/bio.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/LibreTexts/bg_laptop.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/LibreTexts/header_logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/LibreTexts/header_logo_mini.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/LibreTexts/header_text.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/LibreTexts/logoClear.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/LibreTexts/full_logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/team.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="259" column="42" lean-forward="true" selection-start-line="259" selection-start-column="42" selection-end-line="259" selection-end-column="42" />
+        <state relative-caret-position="342">
+          <caret line="1746" column="86" lean-forward="true" selection-start-line="1746" selection-start-column="30" selection-end-line="1746" selection-end-column="86" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" />
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
@@ -1467,6 +1460,7 @@
             <element signature="e#77763#77770#1" expanded="true" />
             <element signature="e#80177#80184#1" expanded="true" />
             <element signature="e#80936#80943#1" expanded="true" />
+            <element signature="e#82645#82652#1" expanded="true" />
             <element signature="e#82357#82364#1" expanded="true" />
             <element signature="e#84141#84148#1" expanded="true" />
             <element signature="e#86430#86437#1" expanded="true" />
