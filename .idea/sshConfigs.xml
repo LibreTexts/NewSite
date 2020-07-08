@@ -3,6 +3,7 @@
   <component name="SshConfigs">
     <configs>
       <sshConfig host="testing.libretexts.org" id="f6b6cbe4-ab69-43a9-8b4e-e87705ef74b6" keyPath="C:\Users\Henry\.ssh\id_rsa" port="22" customName="Static" nameFormat="CUSTOM" username="hagnew" />
+      <sshConfig host="testing.libretexts.org" id="404aaddd-3f04-4773-91bb-71032b3af07d" keyPath="C:\Users\Henry\.ssh\id_rsa" port="22" customName="Static" nameFormat="CUSTOM" username="hagnew" />
     </configs>
   </component>
 </project>
