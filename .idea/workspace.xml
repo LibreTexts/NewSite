@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed1e6133-9397-4499-b1e4-2d9f09ba756a" name="Default Changelist" comment="Archived 5M hero slide">
+    <list default="true" id="ed1e6133-9397-4499-b1e4-2d9f09ba756a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/bqplot.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sshConfigs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sshConfigs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/team/Site/Henry_Agnew.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/team/Site/Henry_Agnew.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced.html" beforeDir="false" afterPath="$PROJECT_DIR$/advanced.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/team.html" beforeDir="false" afterPath="$PROJECT_DIR$/team.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,12 +28,6 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/css/bootstrap.min.css" root0="FORCE_HIGHLIGHTING" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1616" />
-    <option name="height" value="876" />
-  </component>
   <component name="ProjectId" id="1eNd6Wcuz15Y8QvgGdfZLuMo7QB" />
   <component name="ProjectLevelVcsManager">
     <OptionsSetting value="false" id="Update" />
@@ -50,7 +46,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="add_unversioned_files" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mahjongg-react" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Libretext" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -58,13 +54,6 @@
     <property name="settings.editor.selected.configurable" value="Docker" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Henry\Desktop\rogramming\NewSite\img\LibreTexts\glyphs_blue" />
-      <recent name="C:\Users\Henry\Desktop\rogramming\NewSite\img\team\Advisory\originals" />
-      <recent name="C:\Users\Henry\Desktop\rogramming\NewSite\img\sponsors\clear" />
-      <recent name="C:\Users\Henry\Desktop\rogramming\NewSite\img\LibreTexts" />
-      <recent name="C:\Users\Henry\Desktop\rogramming\NewSite" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Henry\Desktop\rogramming\NewSite\img\team\Site" />
       <recent name="C:\Users\Henry\Desktop\rogramming\NewSite\img" />
@@ -72,8 +61,15 @@
       <recent name="C:\Users\Henry\Desktop\rogramming\NewSite\img\team\Developers" />
       <recent name="C:\Users\Henry\Desktop\rogramming\NewSite\img\LibreTexts" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Henry\Desktop\rogramming\NewSite" />
+      <recent name="C:\Users\Henry\Desktop\rogramming\NewSite\img\LibreTexts\glyphs_blue" />
+      <recent name="C:\Users\Henry\Desktop\rogramming\NewSite\img\team\Advisory\originals" />
+      <recent name="C:\Users\Henry\Desktop\rogramming\NewSite\img\sponsors\clear" />
+      <recent name="C:\Users\Henry\Desktop\rogramming\NewSite\img\LibreTexts" />
+    </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.team.html">
+  <component name="RunManager" selected="JavaScript Debug.advanced.html">
     <configuration name="about.html" type="JavascriptDebugType" uri="http://localhost:63342/NewSite/about.html">
       <method v="2" />
     </configuration>
@@ -225,14 +221,9 @@
       <workItem from="1551683929367" duration="7000" />
       <workItem from="1552347310954" duration="1284000" />
       <workItem from="1594165811787" duration="184000" />
-      <workItem from="1594232084477" duration="945000" />
-    </task>
-    <task id="LOCAL-00021" summary="Smaller header and footer">
-      <created>1536605833940</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1536605833941</updated>
+      <workItem from="1594232084477" duration="2431000" />
+      <workItem from="1594345495524" duration="3651000" />
+      <workItem from="1594396328012" duration="3177000" />
     </task>
     <task id="LOCAL-00022" summary="CSS Dropdown arrow">
       <created>1536607120069</created>
@@ -570,7 +561,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594165984772</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="Updated Henry Agnew">
+      <created>1594234150894</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1594234150895</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -578,7 +576,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="Reverted too colorful topbar" />
     <MESSAGE value="Added clear sponsor logos" />
     <MESSAGE value="Additional Board Members" />
     <MESSAGE value="Updated Jennifer Rogers Bio" />
@@ -603,16 +600,21 @@
     <MESSAGE value="Added Gautam" />
     <MESSAGE value="Español library" />
     <MESSAGE value="Archived 5M hero slide" />
-    <option name="LAST_COMMIT_MESSAGE" value="Archived 5M hero slide" />
+    <MESSAGE value="Updated Henry Agnew" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Henry Agnew" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1529" y="0" key="CommitChangelistDialog2" timestamp="1594232272204">
+    <state x="-1529" y="0" key="CommitChangelistDialog2" timestamp="1594234150168">
       <screen x="-1920" y="0" width="1536" height="816" />
     </state>
-    <state x="-1529" y="0" key="CommitChangelistDialog2/-1920.0.1536.816/0.0.1707.920@-1920.0.1536.816" timestamp="1594232272204" />
-    <state x="-1559" y="141" key="Vcs.Push.Dialog.v2" timestamp="1594165986523">
+    <state x="-1529" y="0" key="CommitChangelistDialog2/-1920.0.1536.816/0.0.1707.920@-1920.0.1536.816" timestamp="1594234150168" />
+    <state x="-1371" y="167" key="FileChooserDialogImpl" timestamp="1594396537931">
       <screen x="-1920" y="0" width="1536" height="816" />
     </state>
-    <state x="-1559" y="141" key="Vcs.Push.Dialog.v2/-1920.0.1536.816/0.0.1707.920@-1920.0.1536.816" timestamp="1594165986523" />
+    <state x="-1371" y="167" key="FileChooserDialogImpl/-1920.0.1536.816/0.0.1707.920@-1920.0.1536.816" timestamp="1594396537931" />
+    <state x="-1559" y="141" key="Vcs.Push.Dialog.v2" timestamp="1594234152908">
+      <screen x="-1920" y="0" width="1536" height="816" />
+    </state>
+    <state x="-1559" y="141" key="Vcs.Push.Dialog.v2/-1920.0.1536.816/0.0.1707.920@-1920.0.1536.816" timestamp="1594234152908" />
   </component>
 </project>
