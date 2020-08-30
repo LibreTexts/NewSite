@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed1e6133-9397-4499-b1e4-2d9f09ba756a" name="Default Changelist" comment="" />
+    <list default="true" id="ed1e6133-9397-4499-b1e4-2d9f09ba756a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore/Order_Success.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore/Purchase_Canceled.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore/single.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sshConfigs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sshConfigs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced.html" beforeDir="false" afterPath="$PROJECT_DIR$/advanced.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mission.html" beforeDir="false" afterPath="$PROJECT_DIR$/mission.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pressRelease.html" beforeDir="false" afterPath="$PROJECT_DIR$/pressRelease.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/team.html" beforeDir="false" afterPath="$PROJECT_DIR$/team.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -20,6 +34,10 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/css/bootstrap.min.css" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="KubernetesApiPersistence">
+    <option name="context" value="docker-for-desktop" />
+    <option name="namespace" value="default" />
   </component>
   <component name="ProjectId" id="1eNd6Wcuz15Y8QvgGdfZLuMo7QB" />
   <component name="ProjectLevelVcsManager">
@@ -39,26 +57,27 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="add_unversioned_files" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Libretext" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bookstore" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="Docker" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Henry\Desktop\rogramming\NewSite\bookstore" />
+      <recent name="C:\Users\Henry\Desktop\rogramming\NewSite" />
+      <recent name="C:\Users\Henry\Desktop\rogramming\NewSite\img\LibreTexts\glyphs_blue" />
+      <recent name="C:\Users\Henry\Desktop\rogramming\NewSite\img\team\Advisory\originals" />
+      <recent name="C:\Users\Henry\Desktop\rogramming\NewSite\img\sponsors\clear" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Henry\Desktop\rogramming\NewSite\img\team\Site" />
       <recent name="C:\Users\Henry\Desktop\rogramming\NewSite\img" />
       <recent name="C:\Users\Henry\Desktop\rogramming\NewSite\img\team\Advisory" />
       <recent name="C:\Users\Henry\Desktop\rogramming\NewSite\img\team\Developers" />
-      <recent name="C:\Users\Henry\Desktop\rogramming\NewSite\img\LibreTexts" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Henry\Desktop\rogramming\NewSite" />
-      <recent name="C:\Users\Henry\Desktop\rogramming\NewSite\img\LibreTexts\glyphs_blue" />
-      <recent name="C:\Users\Henry\Desktop\rogramming\NewSite\img\team\Advisory\originals" />
-      <recent name="C:\Users\Henry\Desktop\rogramming\NewSite\img\sponsors\clear" />
       <recent name="C:\Users\Henry\Desktop\rogramming\NewSite\img\LibreTexts" />
     </key>
   </component>
@@ -100,6 +119,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
   <component name="StructureViewFactory">
     <option name="AUTOSCROLL_MODE" value="false" />
     <option name="AUTOSCROLL_FROM_SOURCE" value="true" />
@@ -217,6 +237,7 @@
       <workItem from="1594232084477" duration="2431000" />
       <workItem from="1594345495524" duration="3651000" />
       <workItem from="1594396328012" duration="3217000" />
+      <workItem from="1598810089232" duration="3847000" />
     </task>
     <task id="LOCAL-00023" summary="Added WIP Team page">
       <created>1536643900153</created>
@@ -565,7 +586,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
@@ -597,6 +618,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="Updated Henry Agnew Bio&#10;&#10;Outstanding issue with Jupyter is not yet respolved!" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="-1559" y="70" key="#Deployment" timestamp="1598810669638">
+      <screen x="-1920" y="0" width="1536" height="816" />
+    </state>
+    <state x="-1559" y="70" key="#Deployment/-1920.0.1536.816/0.0.1707.920@-1920.0.1536.816" timestamp="1598810669638" />
+    <state x="-1575" y="57" key="#SSH_Configurations" timestamp="1598810480789">
+      <screen x="-1920" y="0" width="1536" height="816" />
+    </state>
+    <state x="-1575" y="57" key="#SSH_Configurations/-1920.0.1536.816/0.0.1707.920@-1920.0.1536.816" timestamp="1598810480789" />
     <state x="435" y="0" key="CommitChangelistDialog2" timestamp="1594425301296">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
@@ -611,5 +640,9 @@
     </state>
     <state x="-1559" y="141" key="Vcs.Push.Dialog.v2/-1920.0.1536.816/0.0.1707.920@-1920.0.1536.816" timestamp="1594234152908" />
     <state x="401" y="159" key="Vcs.Push.Dialog.v2/-1920.0.1536.816/0.0.1707.920@0.0.1707.920" timestamp="1594425303856" />
+    <state x="-1318" y="62" width="416" height="699" key="ftp.server.browser" timestamp="1598810537624">
+      <screen x="-1920" y="0" width="1536" height="816" />
+    </state>
+    <state x="-1318" y="62" width="416" height="699" key="ftp.server.browser/-1920.0.1536.816/0.0.1707.920@-1920.0.1536.816" timestamp="1598810537624" />
   </component>
 </project>

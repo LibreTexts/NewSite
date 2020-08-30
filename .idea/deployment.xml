@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="Always" serverName="Static" uploadOnCheckin="f6af654b-39db-4bcd-801b-d3f9daa362e1">
+  <component name="PublishConfigData" autoUpload="Always" serverName="Test" uploadOnCheckin="f6af654b-39db-4bcd-801b-d3f9daa362e1">
     <serverData>
-      <paths name="Static">
+      <paths name="Test">
         <serverdata>
           <mappings>
-            <mapping deploy="/SiteTesting" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/development/NewSite" local="$PROJECT_DIR$" web="/hagnew/development/NewSite" />
           </mappings>
         </serverdata>
       </paths>

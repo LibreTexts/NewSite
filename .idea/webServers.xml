@@ -2,12 +2,11 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="f6af654b-39db-4bcd-801b-d3f9daa362e1" name="Static" url="http://testing.libretexts.org">
-        <fileTransfer host="testing.libretexts.org" port="22" privateKey="C:\Users\Henry\.ssh\id_rsa" rootFolder="/home/hagnew" accessType="SFTP" keyPair="true">
+      <webServer id="f6af654b-39db-4bcd-801b-d3f9daa362e1" name="Test" url="http://test.libretexts.org">
+        <fileTransfer rootFolder="/home/hagnew" accessType="SFTP" host="test.libretexts.org" port="22" sshConfigId="5482b915-5b26-4df3-81ef-ca2fc9617a58" sshConfig="Static" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
           </advancedOptions>
-          <option name="port" value="22" />
         </fileTransfer>
       </webServer>
     </option>
