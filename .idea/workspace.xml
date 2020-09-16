@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed1e6133-9397-4499-b1e4-2d9f09ba756a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bookstore.html" afterDir="false" />
+    <list default="true" id="ed1e6133-9397-4499-b1e4-2d9f09ba756a" name="Default Changelist" comment="Bookstore info page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/single.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore/single.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore/Order_Success.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore/Order_Success.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,14 +227,10 @@
       <workItem from="1594345495524" duration="3651000" />
       <workItem from="1594396328012" duration="3217000" />
       <workItem from="1598810089232" duration="5271000" />
-      <workItem from="1598837670066" duration="1301000" />
-    </task>
-    <task id="LOCAL-00025" summary="Initial Mission">
-      <created>1536646273017</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1536646273017</updated>
+      <workItem from="1598837670066" duration="1584000" />
+      <workItem from="1598842502196" duration="14000" />
+      <workItem from="1600298815894" duration="236000" />
+      <workItem from="1600299120577" duration="913000" />
     </task>
     <task id="LOCAL-00026" summary="Z-index CSS change">
       <created>1536646448530</created>
@@ -573,7 +568,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598817931291</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="Bookstore info page">
+      <created>1598842355281</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1598842355281</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -581,7 +583,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="Added Dave Yaron" />
     <MESSAGE value="Press Release initial" />
     <MESSAGE value="Small text update" />
     <MESSAGE value="More Press changes" />
@@ -606,7 +607,8 @@
     <MESSAGE value="Updated Henry Agnew Bio&#10;&#10;Outstanding issue with Jupyter is not yet respolved!" />
     <MESSAGE value="Added bookstore and 501(c)(3)" />
     <MESSAGE value="Bugfix info email" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bugfix info email" />
+    <MESSAGE value="Bookstore info page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bookstore info page" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1559" y="70" key="#Deployment" timestamp="1598810669638">
@@ -617,20 +619,20 @@
       <screen x="-1920" y="0" width="1536" height="816" />
     </state>
     <state x="-1575" y="57" key="#SSH_Configurations/-1920.0.1536.816/0.0.1707.920@-1920.0.1536.816" timestamp="1598810480789" />
-    <state x="71" y="0" width="1501" height="920" key="CommitChangelistDialog2" timestamp="1598817930644">
+    <state x="71" y="0" width="1501" height="920" key="CommitChangelistDialog2" timestamp="1598842354661">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="-1529" y="0" key="CommitChangelistDialog2/-1920.0.1536.816/0.0.1707.920@-1920.0.1536.816" timestamp="1594234150168" />
-    <state x="71" y="0" width="1501" height="920" key="CommitChangelistDialog2/-1920.0.1536.816/0.0.1707.920@0.0.1707.920" timestamp="1598817930644" />
+    <state x="71" y="0" width="1501" height="920" key="CommitChangelistDialog2/-1920.0.1536.816/0.0.1707.920@0.0.1707.920" timestamp="1598842354661" />
     <state x="-1371" y="167" key="FileChooserDialogImpl" timestamp="1594396537931">
       <screen x="-1920" y="0" width="1536" height="816" />
     </state>
     <state x="-1371" y="167" key="FileChooserDialogImpl/-1920.0.1536.816/0.0.1707.920@-1920.0.1536.816" timestamp="1594396537931" />
-    <state x="401" y="159" key="Vcs.Push.Dialog.v2" timestamp="1598817934360">
+    <state x="401" y="159" key="Vcs.Push.Dialog.v2" timestamp="1598842359026">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="-1559" y="141" key="Vcs.Push.Dialog.v2/-1920.0.1536.816/0.0.1707.920@-1920.0.1536.816" timestamp="1594234152908" />
-    <state x="401" y="159" key="Vcs.Push.Dialog.v2/-1920.0.1536.816/0.0.1707.920@0.0.1707.920" timestamp="1598817934360" />
+    <state x="401" y="159" key="Vcs.Push.Dialog.v2/-1920.0.1536.816/0.0.1707.920@0.0.1707.920" timestamp="1598842359026" />
     <state x="-1318" y="62" width="416" height="699" key="ftp.server.browser" timestamp="1598810537624">
       <screen x="-1920" y="0" width="1536" height="816" />
     </state>
