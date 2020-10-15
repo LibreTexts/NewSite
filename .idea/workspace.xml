@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed1e6133-9397-4499-b1e4-2d9f09ba756a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bookstore/beta/single.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/single.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore/single.html" afterDir="false" />
-    </list>
+    <list default="true" id="ed1e6133-9397-4499-b1e4-2d9f09ba756a" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -232,14 +228,7 @@
       <workItem from="1598842502196" duration="14000" />
       <workItem from="1600298815894" duration="236000" />
       <workItem from="1600299120577" duration="999000" />
-      <workItem from="1602803043139" duration="385000" />
-    </task>
-    <task id="LOCAL-00027" summary="Initial Collaborators">
-      <created>1536687962333</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1536687962333</updated>
+      <workItem from="1602803043139" duration="472000" />
     </task>
     <task id="LOCAL-00028" summary="Added Site Developers">
       <created>1536691514226</created>
@@ -577,7 +566,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600300045050</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="Added Beta bookstore for testing">
+      <created>1602803507755</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1602803507755</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -585,7 +581,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="Small text update" />
     <MESSAGE value="More Press changes" />
     <MESSAGE value="Temporarily disabled OWL Carousel" />
     <MESSAGE value="Data reduction on team and advanced" />
@@ -610,7 +605,8 @@
     <MESSAGE value="Bugfix info email" />
     <MESSAGE value="Bookstore info page" />
     <MESSAGE value="Updated Order_Success.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated Order_Success.html" />
+    <MESSAGE value="Added Beta bookstore for testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Beta bookstore for testing" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1559" y="70" key="#Deployment" timestamp="1598810669638">
@@ -621,20 +617,20 @@
       <screen x="-1920" y="0" width="1536" height="816" />
     </state>
     <state x="-1575" y="57" key="#SSH_Configurations/-1920.0.1536.816/0.0.1707.920@-1920.0.1536.816" timestamp="1598810480789" />
-    <state x="-1784" y="0" width="1311" height="816" key="CommitChangelistDialog2" timestamp="1600300044193">
-      <screen x="-1920" y="0" width="1536" height="816" />
+    <state x="71" y="0" width="1311" height="816" key="CommitChangelistDialog2" timestamp="1602803507085">
+      <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="-1784" y="0" width="1311" height="816" key="CommitChangelistDialog2/-1920.0.1536.816/0.0.1707.920@-1920.0.1536.816" timestamp="1600300044193" />
-    <state x="71" y="0" width="1501" height="920" key="CommitChangelistDialog2/-1920.0.1536.816/0.0.1707.920@0.0.1707.920" timestamp="1598842354661" />
+    <state x="71" y="0" width="1501" height="920" key="CommitChangelistDialog2/-1920.0.1536.816/0.0.1707.920@0.0.1707.920" timestamp="1602803507085" />
     <state x="-1371" y="167" key="FileChooserDialogImpl" timestamp="1594396537931">
       <screen x="-1920" y="0" width="1536" height="816" />
     </state>
     <state x="-1371" y="167" key="FileChooserDialogImpl/-1920.0.1536.816/0.0.1707.920@-1920.0.1536.816" timestamp="1594396537931" />
-    <state x="-1559" y="141" key="Vcs.Push.Dialog.v2" timestamp="1600300046602">
-      <screen x="-1920" y="0" width="1536" height="816" />
+    <state x="401" y="159" key="Vcs.Push.Dialog.v2" timestamp="1602803510198">
+      <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="-1559" y="141" key="Vcs.Push.Dialog.v2/-1920.0.1536.816/0.0.1707.920@-1920.0.1536.816" timestamp="1600300046602" />
-    <state x="401" y="159" key="Vcs.Push.Dialog.v2/-1920.0.1536.816/0.0.1707.920@0.0.1707.920" timestamp="1598842359026" />
+    <state x="401" y="159" key="Vcs.Push.Dialog.v2/-1920.0.1536.816/0.0.1707.920@0.0.1707.920" timestamp="1602803510198" />
     <state x="-1318" y="62" width="416" height="699" key="ftp.server.browser" timestamp="1598810537624">
       <screen x="-1920" y="0" width="1536" height="816" />
     </state>
