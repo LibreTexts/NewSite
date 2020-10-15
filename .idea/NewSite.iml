@@ -17,5 +17,7 @@
     <orderEntry type="library" name="Jupyter" level="application" />
     <orderEntry type="library" name="jquery.form" level="application" />
     <orderEntry type="library" name="require" level="application" />
+    <orderEntry type="library" name="standaloneBundle" level="application" />
+    <orderEntry type="library" name="Bookstore" level="application" />
   </component>
 </module>

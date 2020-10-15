@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed1e6133-9397-4499-b1e4-2d9f09ba756a" name="Default Changelist" comment="Bookstore info page">
+    <list default="true" id="ed1e6133-9397-4499-b1e4-2d9f09ba756a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/bookstore/beta/single.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/Order_Success.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore/Order_Success.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore/single.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore/single.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +26,7 @@
     <setting file="file://$PROJECT_DIR$/css/bootstrap.min.css" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="KubernetesApiPersistence">
-    <option name="context" value="docker-for-desktop" />
+    <option name="context" value="docker-desktop" />
     <option name="namespace" value="default" />
   </component>
   <component name="ProjectId" id="1eNd6Wcuz15Y8QvgGdfZLuMo7QB" />
@@ -46,7 +47,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="add_unversioned_files" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bookstore" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -55,19 +56,19 @@
     <property name="settings.editor.selected.configurable" value="Docker" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Henry\Desktop\rogramming\NewSite\bookstore" />
+      <recent name="C:\Users\Henry\Desktop\rogramming\NewSite" />
+      <recent name="C:\Users\Henry\Desktop\rogramming\NewSite\img\LibreTexts\glyphs_blue" />
+      <recent name="C:\Users\Henry\Desktop\rogramming\NewSite\img\team\Advisory\originals" />
+      <recent name="C:\Users\Henry\Desktop\rogramming\NewSite\img\sponsors\clear" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Henry\Desktop\rogramming\NewSite\bookstore\beta" />
       <recent name="C:\Users\Henry\Desktop\rogramming\NewSite\img\team\Site" />
       <recent name="C:\Users\Henry\Desktop\rogramming\NewSite\img" />
       <recent name="C:\Users\Henry\Desktop\rogramming\NewSite\img\team\Advisory" />
       <recent name="C:\Users\Henry\Desktop\rogramming\NewSite\img\team\Developers" />
-      <recent name="C:\Users\Henry\Desktop\rogramming\NewSite\img\LibreTexts" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Henry\Desktop\rogramming\NewSite" />
-      <recent name="C:\Users\Henry\Desktop\rogramming\NewSite\bookstore" />
-      <recent name="C:\Users\Henry\Desktop\rogramming\NewSite\img\LibreTexts\glyphs_blue" />
-      <recent name="C:\Users\Henry\Desktop\rogramming\NewSite\img\team\Advisory\originals" />
-      <recent name="C:\Users\Henry\Desktop\rogramming\NewSite\img\sponsors\clear" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.advanced.html">
@@ -230,14 +231,8 @@
       <workItem from="1598837670066" duration="1584000" />
       <workItem from="1598842502196" duration="14000" />
       <workItem from="1600298815894" duration="236000" />
-      <workItem from="1600299120577" duration="913000" />
-    </task>
-    <task id="LOCAL-00026" summary="Z-index CSS change">
-      <created>1536646448530</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1536646448530</updated>
+      <workItem from="1600299120577" duration="999000" />
+      <workItem from="1602803043139" duration="385000" />
     </task>
     <task id="LOCAL-00027" summary="Initial Collaborators">
       <created>1536687962333</created>
@@ -575,7 +570,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598842355281</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="Updated Order_Success.html">
+      <created>1600300045050</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1600300045050</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -583,7 +585,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="Press Release initial" />
     <MESSAGE value="Small text update" />
     <MESSAGE value="More Press changes" />
     <MESSAGE value="Temporarily disabled OWL Carousel" />
@@ -608,7 +609,8 @@
     <MESSAGE value="Added bookstore and 501(c)(3)" />
     <MESSAGE value="Bugfix info email" />
     <MESSAGE value="Bookstore info page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bookstore info page" />
+    <MESSAGE value="Updated Order_Success.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Order_Success.html" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1559" y="70" key="#Deployment" timestamp="1598810669638">
@@ -619,19 +621,19 @@
       <screen x="-1920" y="0" width="1536" height="816" />
     </state>
     <state x="-1575" y="57" key="#SSH_Configurations/-1920.0.1536.816/0.0.1707.920@-1920.0.1536.816" timestamp="1598810480789" />
-    <state x="71" y="0" width="1501" height="920" key="CommitChangelistDialog2" timestamp="1598842354661">
-      <screen x="0" y="0" width="1707" height="920" />
+    <state x="-1784" y="0" width="1311" height="816" key="CommitChangelistDialog2" timestamp="1600300044193">
+      <screen x="-1920" y="0" width="1536" height="816" />
     </state>
-    <state x="-1529" y="0" key="CommitChangelistDialog2/-1920.0.1536.816/0.0.1707.920@-1920.0.1536.816" timestamp="1594234150168" />
+    <state x="-1784" y="0" width="1311" height="816" key="CommitChangelistDialog2/-1920.0.1536.816/0.0.1707.920@-1920.0.1536.816" timestamp="1600300044193" />
     <state x="71" y="0" width="1501" height="920" key="CommitChangelistDialog2/-1920.0.1536.816/0.0.1707.920@0.0.1707.920" timestamp="1598842354661" />
     <state x="-1371" y="167" key="FileChooserDialogImpl" timestamp="1594396537931">
       <screen x="-1920" y="0" width="1536" height="816" />
     </state>
     <state x="-1371" y="167" key="FileChooserDialogImpl/-1920.0.1536.816/0.0.1707.920@-1920.0.1536.816" timestamp="1594396537931" />
-    <state x="401" y="159" key="Vcs.Push.Dialog.v2" timestamp="1598842359026">
-      <screen x="0" y="0" width="1707" height="920" />
+    <state x="-1559" y="141" key="Vcs.Push.Dialog.v2" timestamp="1600300046602">
+      <screen x="-1920" y="0" width="1536" height="816" />
     </state>
-    <state x="-1559" y="141" key="Vcs.Push.Dialog.v2/-1920.0.1536.816/0.0.1707.920@-1920.0.1536.816" timestamp="1594234152908" />
+    <state x="-1559" y="141" key="Vcs.Push.Dialog.v2/-1920.0.1536.816/0.0.1707.920@-1920.0.1536.816" timestamp="1600300046602" />
     <state x="401" y="159" key="Vcs.Push.Dialog.v2/-1920.0.1536.816/0.0.1707.920@0.0.1707.920" timestamp="1598842359026" />
     <state x="-1318" y="62" width="416" height="699" key="ftp.server.browser" timestamp="1598810537624">
       <screen x="-1920" y="0" width="1536" height="816" />
