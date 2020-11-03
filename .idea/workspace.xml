@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed1e6133-9397-4499-b1e4-2d9f09ba756a" name="Default Changelist" comment="" />
+    <list default="true" id="ed1e6133-9397-4499-b1e4-2d9f09ba756a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/legal/dmca-copyright-policy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/legal/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/legal/legal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/legal/privacy-policy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/legal/terms-of-service-agreement.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -52,19 +59,19 @@
     <property name="settings.editor.selected.configurable" value="Docker" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Henry\Desktop\rogramming\NewSite\bookstore" />
-      <recent name="C:\Users\Henry\Desktop\rogramming\NewSite" />
-      <recent name="C:\Users\Henry\Desktop\rogramming\NewSite\img\LibreTexts\glyphs_blue" />
-      <recent name="C:\Users\Henry\Desktop\rogramming\NewSite\img\team\Advisory\originals" />
-      <recent name="C:\Users\Henry\Desktop\rogramming\NewSite\img\sponsors\clear" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Henry\Desktop\rogramming\NewSite\bookstore\beta" />
       <recent name="C:\Users\Henry\Desktop\rogramming\NewSite\img\team\Site" />
       <recent name="C:\Users\Henry\Desktop\rogramming\NewSite\img" />
       <recent name="C:\Users\Henry\Desktop\rogramming\NewSite\img\team\Advisory" />
       <recent name="C:\Users\Henry\Desktop\rogramming\NewSite\img\team\Developers" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Henry\Desktop\rogramming\NewSite\bookstore" />
+      <recent name="C:\Users\Henry\Desktop\rogramming\NewSite" />
+      <recent name="C:\Users\Henry\Desktop\rogramming\NewSite\img\LibreTexts\glyphs_blue" />
+      <recent name="C:\Users\Henry\Desktop\rogramming\NewSite\img\team\Advisory\originals" />
+      <recent name="C:\Users\Henry\Desktop\rogramming\NewSite\img\sponsors\clear" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.advanced.html">
@@ -231,13 +238,8 @@
       <workItem from="1602803043139" duration="472000" />
       <workItem from="1602803864179" duration="63000" />
       <workItem from="1602820970013" duration="84000" />
-    </task>
-    <task id="LOCAL-00030" summary="Button CSS">
-      <created>1536697493011</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1536697493011</updated>
+      <workItem from="1603301936325" duration="248000" />
+      <workItem from="1604441052624" duration="1155000" />
     </task>
     <task id="LOCAL-00031" summary="Added GLmol">
       <created>1536699402661</created>
@@ -575,7 +577,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602821022951</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="Added GAMMA testing">
+      <created>1603302052551</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1603302052552</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -583,7 +592,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="Data reduction on team and advanced" />
     <MESSAGE value="New style team" />
     <MESSAGE value="Initial Map&#10;&#10;Added Steel" />
     <MESSAGE value="Resized Henry photo" />
@@ -608,7 +616,8 @@
     <MESSAGE value="Added Beta bookstore for testing" />
     <MESSAGE value="Convert to absolute links" />
     <MESSAGE value="Corrected standaloneBundle.js href" />
-    <option name="LAST_COMMIT_MESSAGE" value="Corrected standaloneBundle.js href" />
+    <MESSAGE value="Added GAMMA testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added GAMMA testing" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1559" y="70" key="#Deployment" timestamp="1598810669638">
@@ -619,20 +628,20 @@
       <screen x="-1920" y="0" width="1536" height="816" />
     </state>
     <state x="-1575" y="57" key="#SSH_Configurations/-1920.0.1536.816/0.0.1707.920@-1920.0.1536.816" timestamp="1598810480789" />
-    <state x="71" y="0" width="1311" height="816" key="CommitChangelistDialog2" timestamp="1602821022147">
-      <screen x="0" y="0" width="1707" height="920" />
-    </state>
-    <state x="-1784" y="0" width="1311" height="816" key="CommitChangelistDialog2/-1920.0.1536.816/0.0.1707.920@-1920.0.1536.816" timestamp="1600300044193" />
-    <state x="71" y="0" width="1501" height="920" key="CommitChangelistDialog2/-1920.0.1536.816/0.0.1707.920@0.0.1707.920" timestamp="1602821022147" />
-    <state x="-1371" y="167" key="FileChooserDialogImpl" timestamp="1594396537931">
+    <state x="-1784" y="0" width="1311" height="816" key="CommitChangelistDialog2" timestamp="1603302051825">
       <screen x="-1920" y="0" width="1536" height="816" />
     </state>
-    <state x="-1371" y="167" key="FileChooserDialogImpl/-1920.0.1536.816/0.0.1707.920@-1920.0.1536.816" timestamp="1594396537931" />
-    <state x="401" y="159" key="Vcs.Push.Dialog.v2" timestamp="1602821024476">
-      <screen x="0" y="0" width="1707" height="920" />
+    <state x="-1784" y="0" width="1311" height="816" key="CommitChangelistDialog2/-1920.0.1536.816/0.0.1707.920@-1920.0.1536.816" timestamp="1603302051825" />
+    <state x="71" y="0" width="1501" height="920" key="CommitChangelistDialog2/-1920.0.1536.816/0.0.1707.920@0.0.1707.920" timestamp="1602821022147" />
+    <state x="-1559" y="141" key="Vcs.Push.Dialog.v2" timestamp="1603302054362">
+      <screen x="-1920" y="0" width="1536" height="816" />
     </state>
-    <state x="-1559" y="141" key="Vcs.Push.Dialog.v2/-1920.0.1536.816/0.0.1707.920@-1920.0.1536.816" timestamp="1600300046602" />
+    <state x="-1559" y="141" key="Vcs.Push.Dialog.v2/-1920.0.1536.816/0.0.1707.920@-1920.0.1536.816" timestamp="1603302054362" />
     <state x="401" y="159" key="Vcs.Push.Dialog.v2/-1920.0.1536.816/0.0.1707.920@0.0.1707.920" timestamp="1602821024476" />
+    <state x="-1585" y="0" width="1215" height="529" key="dock-window-1" timestamp="1604441572359">
+      <screen x="-1920" y="0" width="1536" height="816" />
+    </state>
+    <state x="-1585" y="0" width="1215" height="529" key="dock-window-1/-1920.0.1536.816/0.0.1707.920@0.0.1707.920" timestamp="1604441572359" />
     <state x="-1318" y="62" width="416" height="699" key="ftp.server.browser" timestamp="1598810537624">
       <screen x="-1920" y="0" width="1536" height="816" />
     </state>
